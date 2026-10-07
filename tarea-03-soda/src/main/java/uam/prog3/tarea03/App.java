@@ -47,6 +47,6 @@ public class App {
         System.out.println("Subtotal tras getItems().clear(): ₡" + pedido.calcularSubtotal());
 
         // System.out.println(casado.precioBase); // no compila: precioBase es private en ItemMenu y App es otra clase
-        // pedido.items.clear(); // no compila: items es private en Pedido y App es otra clase
+         pedido.items.clear(); // no compila: items es private en Pedido y App es otra clase
     }
 }
